@@ -1,0 +1,18 @@
+.menu_contacts{
+	margin-bottom: 20%
+}
+.menu_contacts li{
+	display: inline;
+	margin-right: 5%;
+	margin-bottom: 0;
+}
+.menu_contacts a {
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+.logo_contacts {
+	position: relative;
+	margin-right: 4%;
+}

@@ -1,0 +1,19 @@
+.preloader{
+			position: fixed;
+			background-color: #403867;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			z-index: 9999;
+		}
+		.preloader > div{
+			position: relative;
+			left: 50%;
+			top: 50vh;
+			margin: -100px 0 0 -100px;
+		}
+		.preloader i{
+			font-size: 200px;
+			color: #ccc;
+		}

@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <title>Клоун Чарлі</title>
+ <meta name="author" content="Зінек Діана">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <link rel="shortcut icon" type="img/png" href="img/logo.png">
+ <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+ <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
+ <link rel="stylesheet" type="text/css" href="css/examples.css">
+ <link rel="stylesheet" type="text/css" href="css/main.css">
+ <link rel="stylesheet" type="text/css" href="css/myVideo.css">
+ <link rel="stylesheet" type="text/css" href="css/contacts.css">
+ <link rel="stylesheet" type="text/css" href="css/adaptive pictures.css">
+ <link rel="stylesheet" type="text/css" href="slick/slick.css">
+ <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+
+ <style> 
+ /*quick style*/
+ .slick-prev:before,.slick-next:before {
+ color: #403867;
+ }
+ #section0{
+ background-image: url(img/4.png);
+ max-width:100%;
+ height:auto;
+ }
+ #section3{
+ background-image: url(img/4.png);
+ max-width:100%;
+ height:auto;
+ }
+ #section0 h1{
+ top: 50%;
+ transform: translateY(-50%);
+ position: relative;
+ }
+ #section2{
+ background-image: url(img//...png);
+ 
+ }
+ #section3 {
+ background-image: url(img/6.png);
+ padding: 6% 0 0 0;
+ }
+ #section3 .layer{
+ position: absolute;
+ z-index: 4;
+ width: 100%;
+ left: 0;
+ top: 43%;
+
+ -webkit-transform: translate3d(0,0,0);
+ -ms-transform: translate3d(0,0,0);
+ transform: translate3d(0,0,0);
+ }
+ #section3{
+ overflow: hidden;
+ color: #000;
+ }
+ #infoMenu li a {
+ color: #fff;
+ }
+ video::-webkit-media-controls {
+ display:none !important;
+ }
+ 
+ / Bottom menu
+ --------------------------------------- */
+ #infoMenu li a {
+ color: #fff;
+ }
+ </style>
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+ <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+ 
+ <script type="text/javascript" src="../vendors/scrolloverflow.js"></script>
+
+ <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+ <script type="text/javascript" src="js/examples.js"></script>
+ <script type="text/javascript">
+ $(document).ready(function() {
+ $('#fullpage').fullpage({
+ sectionsColor: ['#fff', '#fff', '#fff', '#fff', '#fff'],
+ anchors: ['firstPage', 'secondPage', '3rdPage','4thpage','5thpage'],
+ menu: '#menu',
+ loopTop: true,
+ loopBottom: true
+ });
+ });
+ </script>
+</head>
+<body>
+ <!--<img style="position: fixed;z-index:99; top: 0; right: 0; border: 0;" src="img/logo.png"width=20% height=12%>-->
+<ul id="menu">
+ <nav class="navbar-fixet top navbar-expand-lg navbar-light">
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+ <span class="navbar-toggler-icon"></span>
+ </button>
+ <div class="collapse navbar-collapse" id="navbarSupportedContent">
+ <ul class="navbar-nav mr-auto">
+<li data-menuanchor="firstPage" class="active"><a href="#firstPage">Головна</a></li>
+ <li data-menuanchor="secondPage"><a href="#secondPage">Книга</a></li>
+ <li data-menuanchor="3rdPage"><a href="#3rdPage">Процес</a></li>
+ <li data-menuanchor="4thpage"><a href="#4thpage">Ескіз</a></li>
+ <li data-menuanchor="5thpage"><a href="#5thpage">Контакти</a></li>
+ </ul>
+ </div>
+</nav>
+</ul>
+<div id="fullpage">
+ <div class="section" id="section0"> 
+ <div class="block">
+ <img src="img/11.png" class="logo_head" >
+ </div>
+ </div>
+ <div class="section" id="section1">
+ <div>
+ <section class="lazy slider">
+ <div><img data-lazy="img/sl/sl1.jpg"></div>
+ <div><img data-lazy="img/sl/sl2.jpg"></div>
+ <div><img data-lazy="img/sl/sl3.jpg"></div>
+ <div><img data-lazy="img/sl/sl4.jpg"></div>
+ <div><img data-lazy="img/sl/sl5.jpg"></div>
+ </section>
+ </div>
+ </div>
+ <div class="section " id="section2">
+ <video id="myVideo" loop muted data-autoplay>
+ <source src="video/1.mp4" type="video/mp4" class="video">
+ </video>
+ <div class="layer">
+ </div>
+ </div>
+ <div class="section " id="section1">
+ <div class="lazy slider" >
+ <div><img data-lazy="img/sl2/sl2_1.jpg"></div>
+ <div><img data-lazy="img/sl2/sl2_2.jpg"></div>
+ </div>
+ </div>
+ <div class="section " id="section3">
+ <div class="block">
+ <img src="img/contacts/6....png" alt="Клоун Чарлі" class="logo_contacts">
+ <nav class="nav_contacts">
+ <div>
+ <ul class="menu_contacts">
+ <li><a href="https://www.facebook.com/profile.php?id=100011036862529"target="_blank"><img src="img/contacts/7.png" class="facebook"></a></li>
+ <li><a href="https://t.me/diana_zinyk/"target="_blank"><img src="img/contacts/9.png"></a></li>
+ <li><a href="https://www.instagram.com/grigender/"target="_blank"><img src="img/contacts/8.png"></a></li>
+ </ul>
+ </div>
+ </nav>
+ </div> 
+ </div>
+</div>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js" integrity="sha384-u/bQvRA/1bobcXlcEYpsEdFVK/vJs3+T+nXLsBYJthmdBuavHvAW6UsmqO2Gd/F9" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+ <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+ <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+ <script type="text/javascript">
+ $(document).on('ready', function() {
+ $(".lazy").slick({
+ lazyLoad: 'ondemand',
+ infinite: true
+ });
+ });
+ window.sr = ScrollReveal();
+ sr.reveal('.logo_head', {
+ duration: 2000,
+ origin:"right",
+ distance: "100%"
+ });
+ </script> 
+
+</body>
+</html>

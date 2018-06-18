@@ -1,0 +1,17 @@
+#myVideo{
+	position: relative;
+	left:;
+	right:;
+	bottom:;
+	top:0;
+	right:0;
+	width: 72.5%;
+	height: auto;
+	background-size: 0 0;
+ 	background-color: black; 
+  	background-image: ;
+  	background-position: center center;
+  	background-size: contain;
+   	object-fit: cover;
+   	z-index:3;
+}
